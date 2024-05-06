@@ -39,11 +39,12 @@ Memory Game is a classic card-matching game where players need to find pairs of 
 
 5. Enjoy!
 
+## Credits
+
+This game was created by Yuliya Yafimava.
 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
-## Credits
 
-This game was created by Yuliya Yafimava.
