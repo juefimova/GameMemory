@@ -22,7 +22,7 @@ Memory Game is a classic card-matching game where players need to find pairs of 
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/memory-game.git
+git clone https://github.com/juefimova/GameMemory
 
 Copy code
 
