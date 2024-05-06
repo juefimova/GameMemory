@@ -22,13 +22,11 @@ Memory Game is a classic card-matching game where players need to find pairs of 
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/juefimova/GameMemory
+   git clone https://github.com/juefimova/GameMemory
+   
+3. Open the project in IntelliJ IDEA.
 
-Copy code
-
-2. Open the project in IntelliJ IDEA.
-
-3. Build and run the project.
+4. Build and run the project.
 
 ## How to Play
 
