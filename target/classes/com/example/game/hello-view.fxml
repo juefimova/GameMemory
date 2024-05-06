@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.GameController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="133.0" minHeight="133.0" prefHeight="133.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="133.0" minHeight="133.0" prefHeight="133.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="133.0" minHeight="133.0" prefHeight="133.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="Btn1" mnemonicParsing="false" prefHeight="154.0" prefWidth="164.0" style="-fx-background-color: #6A93D4;" text="1" textFill="#6a93d4" />
+      <Button fx:id="Btn2" mnemonicParsing="false" prefHeight="147.0" prefWidth="172.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.rowIndex="1" />
+      <Button fx:id="Btn3" mnemonicParsing="false" prefHeight="136.0" prefWidth="179.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.rowIndex="2" />
+      <Button fx:id="Btn7" mnemonicParsing="false" prefHeight="214.0" prefWidth="192.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="2" />
+      <Button fx:id="Btn4" mnemonicParsing="false" prefHeight="197.0" prefWidth="279.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="1" />
+      <Button fx:id="Btn5" mnemonicParsing="false" prefHeight="154.0" prefWidth="262.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="Btn6" mnemonicParsing="false" prefHeight="146.0" prefWidth="197.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button fx:id="Btn8" mnemonicParsing="false" prefHeight="172.0" prefWidth="255.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="Btn9" mnemonicParsing="false" prefHeight="202.0" prefWidth="307.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button fx:id="Btn10" mnemonicParsing="false" prefHeight="230.0" prefWidth="291.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="3" />
+      <Button fx:id="Btn11" mnemonicParsing="false" prefHeight="276.0" prefWidth="248.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button fx:id="Btn12" mnemonicParsing="false" prefHeight="185.0" prefWidth="228.0" style="-fx-background-color: #6A93D4;" textFill="#6a93d4" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

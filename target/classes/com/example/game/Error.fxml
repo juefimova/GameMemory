@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="210.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.ErrorController">
+   <children>
+      <Text fx:id="message" layoutX="116.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вы ошиблись!!:(" wrappingWidth="200.94775390625">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnOK" layoutX="139.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#btnOKClicked" prefHeight="31.0" prefWidth="101.0" text="OK" />
+      <ImageView fitHeight="63.0" fitWidth="62.0" layoutX="39.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/img.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
