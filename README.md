@@ -1,20 +1,46 @@
 # Memory Game
 
-This is a simple memory game where you need to match pairs of cards.
+Welcome to Memory Game! This is a simple memory game implemented in Java using JavaFX.
+
+## Introduction
+
+Memory Game is a classic card-matching game where players need to find pairs of matching cards. It's a fun way to test and improve your memory skills!
+
+## Features
+
+- Randomized card placement for a unique experience each time you play.
+- Simple and intuitive user interface designed with JavaFX.
+- Feedback messages for correct and incorrect matches.
+- Victory message when all pairs are found.
+
+## Requirements
+
+- Java Development Kit (JDK) 8 or higher.
+- IntelliJ IDEA (or any other Java IDE).
 
 ## Installation
 
-1. Clone the repository to your local machine.
-2. Open the project in your favorite IDE (Integrated Development Environment).
-3. Ensure you have JavaFX installed and properly configured in your IDE.
+1. Clone the repository to your local machine:
+
+git clone https://github.com/yourusername/memory-game.git
+
+Copy code
+
+2. Open the project in IntelliJ IDEA.
+
+3. Build and run the project.
 
 ## How to Play
 
-1. Run the `Main` class to start the game.
-2. Click on the buttons to reveal the hidden numbers.
-3. Try to find matching pairs of numbers.
-4. If you find a matching pair, they will stay revealed. Otherwise, they will be hidden again.
-5. Continue until all pairs are matched.
+1. Click on any card to reveal its symbol.
+
+2. Click on another card to reveal its symbol.
+
+3. If the symbols match, the cards remain face-up. If not, they will be flipped back face-down.
+
+4. Continue until all pairs are found.
+
+5. Enjoy!
 
 
 ## Contributing
